@@ -1,0 +1,130 @@
+@media ( max-width:767px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .games{
+        display: none;
+    }
+    .top{
+        background-image: url(kartinki/Vector.png);
+        background-repeat:no-repeat ;
+        background-position: top right;
+        height: 700px;
+        width: 376px;
+    }
+
+    .picture{
+        display: none;
+    }
+
+    .item-left{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .item-right{
+        display: flex;
+        flex-direction: column;
+    }
+
+   .content-item__info{
+    padding: 29px 29px 32px 29px;
+    width: 284px;
+   }
+
+   .kartinka{
+    width: 343px;
+   }
+   
+   .item-max{
+    height: 626px;  
+   }
+
+   .item-med{
+    height: 567px;
+   }
+
+   .item-mini{
+    height: 528px;  
+   }
+
+   .content-item__names{
+       font-size: 32px;
+       font-weight: 700;
+       line-height: 39.01px;
+       text-align: left;
+       text-underline-position: "from-font";
+       text-decoration-skip-ink: none;
+       font-family: "Montserrat";
+   }
+
+   .content-item__rools{
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 19.5px;
+       text-align: left;
+       text-underline-position: "from-font";
+       text-decoration-skip-ink: none;
+       font-family: "Montserrat";
+   }
+
+    .top__header{
+        padding-top: 147px;
+    }
+
+    .top__face1{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48.76px;
+        text-align: center;
+        text-underline-position: "from-font";
+        text-decoration-skip-ink: none;
+        font-family: "Montserrat";
+        width: 262px;
+        height: 196px;
+    }
+
+    .top__face2{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        text-align: center;
+        text-underline-position: "from-font";
+        text-decoration-skip-ink: none;
+        font-family: "Montserrat";
+        width: 296px;
+        padding-bottom: 36px;
+        padding-top: 24px;
+    }
+
+    .top__span{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.5px;
+        text-align: center;
+        text-underline-position: "from-font";
+        text-decoration-skip-ink: none;
+        font-family: "Montserrat";
+    }
+
+    .mini-games__top{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48.76px;
+        text-align: left;
+        text-underline-position: "from-font";
+        text-decoration-skip-ink: none;
+        font-family: "Montserrat";
+        padding-top: 48px;
+        padding-bottom: 48px;
+        
+    }
+
+    .content-item{
+        justify-content: space-evenly;
+    }
+
+
+}

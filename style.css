@@ -16,6 +16,11 @@
   font-style: normal;
 }
 
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
 .top {
   background-color: #E1FF8F;
   padding-left: 120px;
@@ -53,12 +58,12 @@
 }
 
 .top__face1 {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 64px;
   font-weight: 700;
   line-height: 78.02px;
   text-align: left;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   width: 769px;
@@ -68,20 +73,18 @@
 }
 
 .top__face2 {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   text-align: left;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   width: 720px;
   height: 64px;
   padding-top: 10px;
   padding-bottom: 48px;
-  gap: 0px;
-  opacity: 0px;
 }
 
 .top__span {
@@ -89,7 +92,7 @@
   font-weight: 600;
   line-height: 32px;
   text-align: left;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
 }
@@ -98,16 +101,15 @@
   width: 247px;
   height: 66px;
   border: 1px solid #202027;
-  padding: 16px 28px 16px 28px;
   gap: 10px;
   border-radius: 60px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   color: white;
   font-size: 24px;
   font-weight: 600;
   line-height: 34.01px;
   text-align: center;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   background-color: black;
@@ -116,13 +118,13 @@
 .top__button:hover {
   cursor: pointer;
   font-size: 24px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   color: black;
   font-size: 24px;
   font-weight: 600;
   line-height: 34.01px;
   text-align: center;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   background-color: white;
@@ -141,23 +143,23 @@
   padding-top: 96px;
 }
 .games__face1 {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 64px;
   font-weight: 700;
   line-height: 78.02px;
   text-align: left;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: #ffffff;
 }
 .games__face2 {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   text-align: left;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: #ffffff;
@@ -169,23 +171,23 @@
   gap: 32px;
 }
 .games__number {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-weight: 500;
   line-height: 17.6px;
   text-align: left;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: #202027;
 }
 .games__names {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 32px;
   font-weight: 700;
   line-height: 39.01px;
   text-align: left;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: #202027;
@@ -214,7 +216,6 @@
 }
 
 .item {
-  width: 378px;
   background-color: #ffffff;
   border-radius: 30px;
 }
@@ -247,11 +248,11 @@
 }
 .mini-games__top {
   padding-bottom: 72px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-weight: 700;
   line-height: 78.02px;
   text-align: left;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   font-size: 64px;
@@ -266,11 +267,9 @@
 
 .content-item {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
   background-color: #ffffff;
-  width: 1200px;
-  height: 500px;
   border-radius: 30px;
 }
 .content-item__info {
@@ -280,11 +279,11 @@
   width: 504px;
 }
 .content-item__names {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-weight: 700;
   line-height: 58.51px;
   text-align: left;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   font-size: 48px;
@@ -294,10 +293,10 @@
   font-weight: 400;
   line-height: 32px;
   text-align: left;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   padding-top: 24px;
   padding-bottom: 36px;
 }
@@ -306,10 +305,10 @@
   font-weight: 600;
   line-height: 34.01px;
   text-align: center;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   color: #ffffff;
   width: 247px;
   height: 66px;
@@ -332,10 +331,127 @@
   font-weight: 600;
   line-height: 29.26px;
   text-align: center;
-  text-underline-position: from-font;
+  text-underline-position: "from-font";
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 24px;
   padding: 60px 578px 60px 578px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .games {
+    display: none;
+  }
+  .top {
+    background-image: url(kartinki/Vector.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 700px;
+    width: 376px;
+  }
+  .picture {
+    display: none;
+  }
+  .item-left {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .item-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-item__info {
+    padding: 29px 29px 32px 29px;
+    width: 284px;
+  }
+  .kartinka {
+    width: 343px;
+  }
+  .item-max {
+    height: 626px;
+  }
+  .item-med {
+    height: 567px;
+  }
+  .item-mini {
+    height: 528px;
+  }
+  .content-item__names {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: left;
+    text-underline-position: "from-font";
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+    font-family: "Montserrat";
+  }
+  .content-item__rools {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: "from-font";
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+    font-family: "Montserrat";
+  }
+  .top__header {
+    padding-top: 147px;
+  }
+  .top__face1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    text-align: center;
+    text-underline-position: "from-font";
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+    font-family: "Montserrat";
+    width: 262px;
+    height: 196px;
+  }
+  .top__face2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+    text-underline-position: "from-font";
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+    font-family: "Montserrat";
+    width: 296px;
+    padding-bottom: 36px;
+    padding-top: 24px;
+  }
+  .top__span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: center;
+    text-underline-position: "from-font";
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+    font-family: "Montserrat";
+  }
+  .mini-games__top {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    text-align: left;
+    text-underline-position: "from-font";
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+    font-family: "Montserrat";
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .content-item {
+    justify-content: space-evenly;
+  }
 }/*# sourceMappingURL=style.css.map */
