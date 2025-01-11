@@ -15,6 +15,11 @@
     font-style: normal;
   }
 
+  .center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
   
   .top{
     background-color: #E1FF8F;
@@ -60,12 +65,12 @@
    
     
     .top__face1{
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-size: 64px;
     font-weight: 700;
     line-height: 78.02px;
     text-align: left;
-    text-underline-position: from-font;
+    text-underline-position: "from-font";
     text-decoration-skip-ink: none;
     width: 769px;
     height: 156px;
@@ -75,19 +80,17 @@
     }
 
     .top__face2{
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
     text-align: left;
-    text-underline-position: from-font;
+    text-underline-position: "from-font";
     text-decoration-skip-ink: none;
     width: 720px;
     height: 64px;
     padding-top: 10px;
     padding-bottom: 48px;
-    gap: 0px;
-    opacity: 0px;
     }
 
     .top__span{
@@ -95,7 +98,7 @@
       font-weight: 600;
       line-height: 32px;        
       text-align: left;
-      text-underline-position: from-font;
+      text-underline-position: "from-font";
       text-decoration-skip-ink: none;
   }
 
@@ -103,16 +106,15 @@
      width: 247px;
      height: 66px;
      border: 1px solid #202027;
-     padding: 16px 28px 16px 28px;
      gap: 10px;
      border-radius: 60px;
-     font-family: Montserrat;
+     font-family: "Montserrat";
      color: white;
     font-size: 24px;
     font-weight: 600 ;
     line-height: 34.01px;
     text-align: center;
-    text-underline-position: from-font;
+    text-underline-position: "from-font";
     text-decoration-skip-ink: none;
     background-color: black;
     }
@@ -120,13 +122,13 @@
     .top__button:hover{
       cursor: pointer;
       font-size: 24px;
-      font-family: Montserrat;
+      font-family: "Montserrat";
       color: black;
       font-size: 24px;
       font-weight: 600 ;
       line-height: 34.01px;
       text-align: center;
-      text-underline-position: from-font;
+      text-underline-position: "from-font";
       text-decoration-skip-ink: none;
       background-color: white;
     }
@@ -146,23 +148,23 @@
         }
 
         &__face1{
-            font-family: Montserrat;
+            font-family: "Montserrat";
             font-size: 64px;
             font-weight: 700;
             line-height: 78.02px;
             text-align: left;
-            text-underline-position: from-font;
+            text-underline-position: "from-font";
             text-decoration-skip-ink: none;
             color: #ffffff;
         }
 
         &__face2{
-            font-family: Montserrat;
+            font-family: "Montserrat";
             font-size: 24px;
             font-weight: 400;
             line-height: 32px;
             text-align: left;
-            text-underline-position: from-font;
+            text-underline-position: "from-font";
             text-decoration-skip-ink: none;
             color: #ffffff;
             padding-top: 24px;
@@ -175,23 +177,23 @@
         }
 
         &__number{
-            font-family: Montserrat;
+            font-family: "Montserrat";
             font-size: 16px;
             font-weight: 500;
             line-height: 17.6px;
             text-align: left;
-            text-underline-position: from-font;
+            text-underline-position: "from-font";
             text-decoration-skip-ink: none;
             color: #202027;
         }
 
         &__names{
-            font-family: Montserrat;
+            font-family: "Montserrat";
             font-size: 32px;
             font-weight: 700;
             line-height: 39.01px;
             text-align: left;
-            text-underline-position: from-font;
+            text-underline-position: "from-font";
             text-decoration-skip-ink: none;
             color: #202027;
             padding-top: 16px;
@@ -208,6 +210,7 @@
           padding: 32px 32px 36px 32px;
         }
     }
+  
       .games__star11{
         position: absolute;
         top: 770px;
@@ -222,7 +225,6 @@
     
 
     .item{
-      width: 378px;
       background-color: #ffffff;
       border-radius: 30px;
     }
@@ -258,11 +260,11 @@
 
       &__top{
         padding-bottom: 72px;
-        font-family: Montserrat;
+        font-family: "Montserrat";
         font-weight: 700;
         line-height: 78.02px;
         text-align: left;
-        text-underline-position: from-font;
+        text-underline-position: "from-font";
         text-decoration-skip-ink: none;
         font-size: 64px;
         color: #ffffff
@@ -278,11 +280,9 @@
 
     .content-item{
       display: flex;   
-      flex-wrap: wrap;    
+      flex-wrap: nowrap;    
       flex-direction: row;
       background-color: #ffffff; 
-      width: 1200px;
-      height: 500px;
       border-radius: 30px;
 
       &__info{
@@ -290,15 +290,14 @@
         padding-left: 48px;
         padding-right: 48px;
         width: 504px;
-
       }
       
       &__names{
-        font-family: Montserrat;
+        font-family: "Montserrat";
         font-weight: 700;
         line-height: 58.51px;
         text-align: left;
-        text-underline-position: from-font;
+        text-underline-position: "from-font";
         text-decoration-skip-ink: none;
         font-size: 48px;
       }
@@ -308,9 +307,9 @@
         font-weight: 400;
         line-height: 32px;
         text-align: left;
-        text-underline-position: from-font;
+        text-underline-position: "from-font";
         text-decoration-skip-ink: none;
-        font-family: Montserrat;
+        font-family: "Montserrat";
         padding-top: 24px;
         padding-bottom: 36px;
       }
@@ -320,9 +319,9 @@
         font-weight: 600;
         line-height: 34.01px;
         text-align: center;
-        text-underline-position: from-font;
+        text-underline-position: "from-font";
         text-decoration-skip-ink: none;
-        font-family: Montserrat;
+        font-family: "Montserrat";
         color: #ffffff;
         width: 247px;
         height:66px;
@@ -347,9 +346,9 @@
          font-weight: 600;
          line-height: 29.26px;
          text-align: center;
-         text-underline-position: from-font;
+         text-underline-position: "from-font";
          text-decoration-skip-ink: none;
-         font-family: Montserrat;
+         font-family: "Montserrat";
          font-size: 24px;
          padding: 60px 578px 60px 578px;
        }
@@ -359,3 +358,5 @@
 
     
 @import 'styles.css';
+
+@import 'mobile.scss'
