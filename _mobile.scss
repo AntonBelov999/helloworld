@@ -7,17 +7,106 @@
     .games{
         display: none;
     }
+
     .top{
         background-image: url(kartinki/Vector.png);
         background-repeat:no-repeat ;
         background-position: top right;
         height: 700px;
         width: 376px;
+
+        &__header{
+            padding-top: 147px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            display: flex;
+        }
+    
+        &__face1{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48.76px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+            width: 262px;
+            height: 196px;
+        }
+    
+        &__face2{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.5px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+            width: 296px;
+            padding-bottom: 36px;
+            padding-top: 24px;
+        }
+    
+        &__span{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19.5px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+        }
+    
+        &__button{
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 22.67px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+            color: white;
+            background-color: black;
+            
+        }
+    
+        &__button:hover{
+            cursor: pointer;
+            font-size: 16px;
+            font-family: "Montserrat";
+            color: black;
+            font-weight: 600 ;
+            line-height: 34.01px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            background-color: white;
+        }
     }
 
-    .picture{
-        display: none;
+    .run{
+        height: 51px;
+
+        &__text{
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 17.6px;
+            letter-spacing: 0.04em;
+            text-align: left;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+        }
+
+        &__img{
+            width: 19px;
+            height: 19px;
+        }
     }
+
 
     .item-left{
         display: flex;
@@ -28,11 +117,6 @@
         display: flex;
         flex-direction: column;
     }
-
-   .content-item__info{
-    padding: 29px 29px 32px 29px;
-    width: 284px;
-   }
 
    .kartinka{
     width: 343px;
@@ -50,64 +134,7 @@
     height: 528px;  
    }
 
-   .content-item__names{
-       font-size: 32px;
-       font-weight: 700;
-       line-height: 39.01px;
-       text-align: left;
-       text-underline-position: "from-font";
-       text-decoration-skip-ink: none;
-       font-family: "Montserrat";
-   }
-
-   .content-item__rools{
-       font-size: 16px;
-       font-weight: 400;
-       line-height: 19.5px;
-       text-align: left;
-       text-underline-position: "from-font";
-       text-decoration-skip-ink: none;
-       font-family: "Montserrat";
-   }
-
-    .top__header{
-        padding-top: 147px;
-    }
-
-    .top__face1{
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 48.76px;
-        text-align: center;
-        text-underline-position: "from-font";
-        text-decoration-skip-ink: none;
-        font-family: "Montserrat";
-        width: 262px;
-        height: 196px;
-    }
-
-    .top__face2{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19.5px;
-        text-align: center;
-        text-underline-position: "from-font";
-        text-decoration-skip-ink: none;
-        font-family: "Montserrat";
-        width: 296px;
-        padding-bottom: 36px;
-        padding-top: 24px;
-    }
-
-    .top__span{
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 19.5px;
-        text-align: center;
-        text-underline-position: "from-font";
-        text-decoration-skip-ink: none;
-        font-family: "Montserrat";
-    }
+    
 
     .mini-games__top{
         font-size: 40px;
@@ -119,12 +146,66 @@
         font-family: "Montserrat";
         padding-top: 48px;
         padding-bottom: 48px;
-        
     }
 
     .content-item{
         justify-content: space-evenly;
+
+        &__names{
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39.01px;
+            text-align: left;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+        }
+
+        &__info{
+            padding: 29px 29px 32px 29px;
+            width: 284px;
+           }
+     
+        &__rools{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.5px;
+            text-align: left;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+        }
+
+        &__button{
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 22.67px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+        }
     }
+
+    .footer{
+        height: 100px;
+
+
+        &__text{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19.5px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+            padding: 40px 92px 40px 92px;
+            width: 190px;
+        }
+    }
+
 
 
 }

@@ -49,9 +49,9 @@
 //const user = {
 //    name: 'Адмирал-генерал Алладин',
 //    age: 34,
-//    isAdmin: 'true',
+//    isAdmin: true,
 //}
 
 //exp 10
 //let userName = prompt('Как тубя зовут');
-//alert('Привет ${userName}!');
+//alert(`Привет ${userName}!`);

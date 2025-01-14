@@ -5,7 +5,6 @@
 
   .body {
     font-family: "Montserrat", serif;
-    width: 1440px;
   }
   
   .montserrat {
@@ -23,48 +22,16 @@
   
   .top{
     background-color: #E1FF8F;
-    padding-left: 120px;
     height: 800px;
-    background-image: url(kartinki/Group\ 1597880565.png);
+    background-image: url(kartinki/Group\ 1597880565.png), url(kartinki/Star\ 2.png), url(kartinki/Star\ 3.png),url(kartinki/Star\ 5.png),url(kartinki/Star\ 4.png);
     background-repeat:no-repeat ;
-    background-position: right;
-    position: relative;
-}
+    background-position: calc(100% - 0px),calc(0% + 63px) 94px,calc(0% + 156px) 69,calc(100% - 455px) 538px,calc(100% - 344px) 568px;
 
-.picture{
-  &__star2{ 
-    position: absolute;
-    top: 94px;
-    left: 63px;
-    background-color: transparent;
-  }
-  &__star3{
-  position: absolute;
-  top: 69px;
-  left: 156px;
-  }
-  &__star4{
-    position: absolute;
-    top: 568px;
-    left: 1013px;
-  }
-  &__star5{
-    position: absolute;
-    top: 548px;
-    left: 948px;
-  }
-
-  }
-
-
-
-  .top__header{
+  &__header{
     padding-top:196px ;
   }
 
-   
-    
-    .top__face1{
+  &__face1{
     font-family: "Montserrat";
     font-size: 64px;
     font-weight: 700;
@@ -79,7 +46,7 @@
     
     }
 
-    .top__face2{
+    &__face2{
     font-family: "Montserrat";
     font-size: 24px;
     font-weight: 400;
@@ -93,7 +60,7 @@
     padding-bottom: 48px;
     }
 
-    .top__span{
+    &__span{
       font-size: 24px;
       font-weight: 600;
       line-height: 32px;        
@@ -102,7 +69,7 @@
       text-decoration-skip-ink: none;
   }
 
-  .top__button{
+  &__button{
      width: 247px;
      height: 66px;
      border: 1px solid #202027;
@@ -119,12 +86,11 @@
     background-color: black;
     }
 
-    .top__button:hover{
+    &__button:hover{
       cursor: pointer;
       font-size: 24px;
       font-family: "Montserrat";
       color: black;
-      font-size: 24px;
       font-weight: 600 ;
       line-height: 34.01px;
       text-align: center;
@@ -132,10 +98,37 @@
       text-decoration-skip-ink: none;
       background-color: white;
     }
+  }
+
+  .run{
+      height: 90px;
+      background-color: #BCEC30;
+
+      &__content{
+        padding-top: 27px;
+        padding-bottom: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 51px;
+      }
+    
+
+      &__text{
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        text-underline-position: "from-font";
+        text-decoration-skip-ink: none;
+        font-family: "Montserrat";
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+    }
+  }
 
     .games{
         background-color: #202027;
-        padding-left: 120px;
         height: 1440px;
         background-image: url(kartinki/Star\ 1.png);
         background-repeat: no-repeat;
@@ -209,20 +202,21 @@
         &__info{
           padding: 32px 32px 36px 32px;
         }
-    }
+    
   
-      .games__star11{
+      &__star11{
         position: absolute;
         top: 770px;
         left: 25px;
       }
 
-      .games__star12{
+      &__star12{
         position: absolute;
         top: 822px;
         left: 40px;
       }
-    
+    }
+      
 
     .item{
       background-color: #ffffff;
@@ -232,7 +226,6 @@
     
     .mini-games{
       background-color: #202027;
-      padding-left: 120px;
       padding-bottom: 144px;
       position: relative;
 
@@ -331,7 +324,6 @@
       }
 
       &__img{
-        width: 600px;
         height: 500px;
       }
     }
@@ -339,10 +331,9 @@
     .footer{
       background: #BDED35;
       height: 150px;
-      width: 1440px;
 
        &__text{
-        width: 285px;
+         width: 285px;
          font-weight: 600;
          line-height: 29.26px;
          text-align: center;
