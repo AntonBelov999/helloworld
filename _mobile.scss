@@ -13,7 +13,38 @@
         background-repeat:no-repeat ;
         background-position: top right;
         height: 700px;
-        width: 376px;
+
+        &__star3{
+            position: absolute;
+            top: 64px;
+            left: 91px;
+            width: 21px;
+            height: 21px;
+          }
+
+          &__star2{
+            position: absolute;
+            top: 97px;
+            left: 37px;
+            width: 35px;
+            height: 35px;
+          }
+
+          &__star5{
+            position: absolute;
+            top: 557px;
+            left: 272px;
+            width: 18px;
+            height: 18px;
+          }
+
+          &__star4{
+            position: absolute;
+            top: 580px;
+            left: 303px;
+            width: 39px;
+            height: 41px;
+          }
 
         &__header{
             padding-top: 147px;
@@ -192,7 +223,6 @@
     .footer{
         height: 100px;
 
-
         &__text{
             font-size: 16px;
             font-weight: 600;
@@ -201,7 +231,6 @@
             text-underline-position: "from-font";
             text-decoration-skip-ink: none;
             font-family: "Montserrat";
-            padding: 40px 92px 40px 92px;
             width: 190px;
         }
     }
