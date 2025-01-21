@@ -139,33 +139,15 @@
     }
 
 
-    .item-left{
+    .item_left{
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .item-right{
+    .item_right{
         display: flex;
         flex-direction: column;
     }
-
-   .kartinka{
-    width: 343px;
-   }
-   
-   .item-max{
-    height: 626px;  
-   }
-
-   .item-med{
-    height: 567px;
-   }
-
-   .item-mini{
-    height: 528px;  
-   }
-
-    
 
     .mini-games__top{
         font-size: 40px;
@@ -180,7 +162,12 @@
     }
 
     .content-item{
-        justify-content: space-evenly;
+
+        &__img{
+            width: 343px;
+            height: 284px;
+        }
+        
 
         &__names{
             font-size: 32px;
@@ -218,6 +205,12 @@
             text-decoration-skip-ink: none;
             font-family: "Montserrat";
         }
+    }
+    
+    .item_left{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        display: flex;
     }
 
     .footer{
