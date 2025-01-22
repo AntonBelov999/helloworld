@@ -156,16 +156,12 @@
 
     .games{
         background-color: #202027;
-        height: 1440px;
         background-image: url(kartinki/Star\ 1.svg);
         background-repeat: no-repeat;
         background-position:  top right;
         position: relative;
-
-
-        &__content{
-            padding-top:96px;
-        }
+        padding-top: 94px;
+        padding-bottom: 50px;
 
         &__face1{
             font-family: "Montserrat";
@@ -259,6 +255,7 @@
     .mini-games{
       background-color: #202027;
       padding-bottom: 144px;
+      padding-top: 46px;
       position: relative;
 
       &__star6{
@@ -383,6 +380,6 @@
 
 
 
-@import 'mobile.scss';
-
 @import 'tablet.scss';
+
+@import 'mobile.scss';

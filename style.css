@@ -145,14 +145,12 @@
 
 .games {
   background-color: #202027;
-  height: 1440px;
   background-image: url(kartinki/Star\ 1.svg);
   background-repeat: no-repeat;
   background-position: top right;
   position: relative;
-}
-.games__content {
-  padding-top: 96px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .games__face1 {
   font-family: "Montserrat";
@@ -237,6 +235,7 @@
 .mini-games {
   background-color: #202027;
   padding-bottom: 144px;
+  padding-top: 46px;
   position: relative;
 }
 .mini-games__star6 {
@@ -353,6 +352,103 @@
   font-size: 24px;
 }
 
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+  .top {
+    background-image: url(kartinki/Vector.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 700px;
+  }
+  .top__star3 {
+    position: absolute;
+    top: 64px;
+    left: 91px;
+    width: 21px;
+    height: 21px;
+  }
+  .top__star2 {
+    position: absolute;
+    top: 97px;
+    left: 37px;
+    width: 35px;
+    height: 35px;
+  }
+  .top__star5 {
+    position: absolute;
+    top: 557px;
+    left: 800px;
+    width: 18px;
+    height: 18px;
+  }
+  .top__star4 {
+    position: absolute;
+    top: 580px;
+    left: 900px;
+    width: 39px;
+    height: 41px;
+  }
+  .games__img {
+    width: 240px;
+    height: 240px;
+  }
+  .games__names {
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: left;
+    text-underline-position: "from-font";
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+    font-family: "Montserrat";
+    font-size: 16px;
+  }
+  .games__info {
+    width: 171px;
+  }
+  .kartinka {
+    width: 256px;
+    height: 256px;
+    border-radius: 30px;
+  }
+  .content-item__img {
+    height: 256px;
+  }
+  .content-item__names {
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: left;
+    text-underline-position: "from-font";
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+    font-family: "Montserrat";
+    font-size: 20px;
+  }
+  .content-item__rools {
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: "from-font";
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+    font-family: "Montserrat";
+    font-size: 16px;
+  }
+  .content-item__button {
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.67px;
+    text-align: center;
+    text-underline-position: "from-font";
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+    font-family: "Montserrat";
+  }
+}
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -490,6 +586,13 @@
     display: flex;
     flex-direction: column;
   }
+  .mini-games {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .mini-games__content {
+    padding-bottom: 48px;
+  }
   .mini-games__top {
     font-size: 40px;
     font-weight: 700;
@@ -503,8 +606,7 @@
     padding-bottom: 48px;
   }
   .content-item__img {
-    width: 343px;
-    height: 284px;
+    height: auto;
   }
   .content-item__names {
     font-size: 32px;
@@ -542,6 +644,10 @@
             text-decoration-skip-ink: none;
     font-family: "Montserrat";
   }
+  .kartinka {
+    width: 343px;
+    height: 285px;
+  }
   .item_left {
     flex-direction: column-reverse;
     flex-wrap: wrap;
@@ -560,102 +666,5 @@
             text-decoration-skip-ink: none;
     font-family: "Montserrat";
     width: 190px;
-  }
-}
-@media (max-width: 1024px) {
-  .center {
-    padding-left: calc(50% - 393px);
-    padding-right: calc(50% - 393px);
-  }
-  .top {
-    background-image: url(kartinki/Vector.png);
-    background-repeat: no-repeat;
-    background-position: top right;
-    height: 700px;
-  }
-  .top__star3 {
-    position: absolute;
-    top: 64px;
-    left: 91px;
-    width: 21px;
-    height: 21px;
-  }
-  .top__star2 {
-    position: absolute;
-    top: 97px;
-    left: 37px;
-    width: 35px;
-    height: 35px;
-  }
-  .top__star5 {
-    position: absolute;
-    top: 557px;
-    left: 800px;
-    width: 18px;
-    height: 18px;
-  }
-  .top__star4 {
-    position: absolute;
-    top: 580px;
-    left: 900px;
-    width: 39px;
-    height: 41px;
-  }
-  .games__img {
-    width: 240px;
-    height: 240px;
-  }
-  .games__names {
-    font-weight: 700;
-    line-height: 39.01px;
-    text-align: left;
-    text-underline-position: "from-font";
-    -webkit-text-decoration-skip-ink: none;
-            text-decoration-skip-ink: none;
-    font-family: "Montserrat";
-    font-size: 16px;
-  }
-  .games__info {
-    width: 171px;
-  }
-  .kartinka {
-    width: 256px;
-    height: 256px;
-    border-radius: 30px;
-  }
-  .content-item__img {
-    height: 256px;
-  }
-  .content-item__names {
-    font-weight: 700;
-    line-height: 39.01px;
-    text-align: left;
-    text-underline-position: "from-font";
-    -webkit-text-decoration-skip-ink: none;
-            text-decoration-skip-ink: none;
-    font-family: "Montserrat";
-    font-size: 20px;
-  }
-  .content-item__rools {
-    font-weight: 400;
-    line-height: 19.5px;
-    text-align: left;
-    text-underline-position: "from-font";
-    -webkit-text-decoration-skip-ink: none;
-            text-decoration-skip-ink: none;
-    font-family: "Montserrat";
-    font-size: 16px;
-  }
-  .content-item__button {
-    width: 285px;
-    height: 55px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 22.67px;
-    text-align: center;
-    text-underline-position: "from-font";
-    -webkit-text-decoration-skip-ink: none;
-            text-decoration-skip-ink: none;
-    font-family: "Montserrat";
   }
 }/*# sourceMappingURL=style.css.map */

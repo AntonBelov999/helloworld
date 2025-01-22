@@ -149,25 +149,34 @@
         flex-direction: column;
     }
 
-    .mini-games__top{
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 48.76px;
-        text-align: left;
-        text-underline-position: "from-font";
-        text-decoration-skip-ink: none;
-        font-family: "Montserrat";
-        padding-top: 48px;
-        padding-bottom: 48px;
+    .mini-games{
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+        &__content{
+            padding-bottom: 48px;
+        }
+
+        &__top{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48.76px;
+            text-align: left;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+            padding-top: 48px;
+            padding-bottom: 48px;
+        }
     }
+
+    
 
     .content-item{
 
         &__img{
-            width: 343px;
-            height: 284px;
+            height: auto;
         }
-        
 
         &__names{
             font-size: 32px;
@@ -205,6 +214,11 @@
             text-decoration-skip-ink: none;
             font-family: "Montserrat";
         }
+    }
+
+    .kartinka{
+        width: 343px;
+        height: 285px;
     }
     
     .item_left{
