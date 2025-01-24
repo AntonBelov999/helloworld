@@ -48,6 +48,7 @@
 
         &__header{
             padding-top: 147px;
+            padding-bottom: 130px;
             flex-direction: column;
             flex-wrap: wrap;
             align-content: center;
@@ -120,6 +121,10 @@
 
     .run{
         height: 51px;
+
+        &__content{
+            gap: 27px;
+        }
 
         &__text{
             font-size: 16px;

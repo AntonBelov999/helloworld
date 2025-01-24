@@ -22,7 +22,6 @@
   
   .top{
     background-color: #E1FF8F;
-    height: 800px;
     background-image: url(kartinki/Group\ 1597880565.png);
     background-repeat:no-repeat ;
     background-position:top right;
@@ -54,6 +53,7 @@
 
   &__header{
     padding-top:196px ;
+    padding-bottom: 156px;
   }
 
   &__face1{
@@ -65,7 +65,6 @@
     text-underline-position: "from-font";
     text-decoration-skip-ink: none;
     width: 769px;
-    height: 156px;
     gap: 0px;
     opacity: 0px;
     
@@ -81,7 +80,7 @@
     text-decoration-skip-ink: none;
     width: 720px;
     height: 64px;
-    padding-top: 10px;
+    padding-top: 24px;
     padding-bottom: 48px;
     }
 

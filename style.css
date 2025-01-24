@@ -21,7 +21,6 @@
 
 .top {
   background-color: #E1FF8F;
-  height: 800px;
   background-image: url(kartinki/Group\ 1597880565.png);
   background-repeat: no-repeat;
   background-position: top right;
@@ -49,6 +48,7 @@
 }
 .top__header {
   padding-top: 196px;
+  padding-bottom: 156px;
 }
 .top__face1 {
   font-family: "Montserrat";
@@ -60,7 +60,6 @@
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   width: 769px;
-  height: 156px;
   gap: 0px;
   opacity: 0px;
 }
@@ -75,7 +74,7 @@
           text-decoration-skip-ink: none;
   width: 720px;
   height: 64px;
-  padding-top: 10px;
+  padding-top: 24px;
   padding-bottom: 48px;
 }
 .top__span {
@@ -493,6 +492,7 @@
   }
   .top__header {
     padding-top: 147px;
+    padding-bottom: 130px;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
@@ -562,6 +562,9 @@
   }
   .run {
     height: 51px;
+  }
+  .run__content {
+    gap: 27px;
   }
   .run__text {
     font-size: 16px;
