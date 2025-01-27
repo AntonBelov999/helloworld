@@ -13,6 +13,9 @@
         background-repeat:no-repeat ;
         background-position: top right;
         height: 700px;
+        flex-direction: column;
+        display: flex;
+        overflow-x: hidden;
 
         &__star3{
             position: absolute;
@@ -48,10 +51,9 @@
 
         &__header{
             padding-top: 147px;
-            padding-bottom: 130px;
             flex-direction: column;
             flex-wrap: wrap;
-            align-content: center;
+            align-items: center;
             display: flex;
         }
     
@@ -120,10 +122,14 @@
     }
 
     .run{
-        height: 51px;
+        width: 1717px;
+        margin-top: auto;
 
         &__content{
             gap: 27px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 19px;
         }
 
         &__text{

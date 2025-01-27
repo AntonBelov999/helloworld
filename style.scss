@@ -24,8 +24,16 @@
     background-color: #E1FF8F;
     background-image: url(kartinki/Group\ 1597880565.png);
     background-repeat:no-repeat ;
+    height: 800px;
     background-position:top right;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+
+    &__header{
+      padding-top: 147px;
+    }
 
     &__star3{
       position: absolute;
@@ -50,11 +58,6 @@
       top: 548px;
       left: 1013px;
     }
-
-  &__header{
-    padding-top:196px ;
-    padding-bottom: 156px;
-  }
 
   &__face1{
     font-family: "Montserrat";
@@ -127,12 +130,14 @@
 
 
   .run{
-      height: 90px;
+      width: 1717px;
+      margin-top: auto;
       background-color: #BCEC30;
 
       &__content{
         padding-top: 27px;
         padding-bottom: 32px;
+        padding-left: 19px;
         display: flex;
         flex-wrap: wrap;
         gap: 51px;
@@ -149,6 +154,7 @@
         font-family: "Montserrat";
         color: black;
         font-size: 30px;
+        text-transform: uppercase;
         text-decoration: none;
     }
   }

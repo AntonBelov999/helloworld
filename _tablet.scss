@@ -9,6 +9,8 @@
         background-repeat:no-repeat ;
         background-position: top right;
         height: 700px;
+        flex-direction: column;
+        display: flex;
 
         &__star3{
             position: absolute;

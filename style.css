@@ -23,8 +23,15 @@
   background-color: #E1FF8F;
   background-image: url(kartinki/Group\ 1597880565.png);
   background-repeat: no-repeat;
+  height: 800px;
   background-position: top right;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.top__header {
+  padding-top: 147px;
 }
 .top__star3 {
   position: absolute;
@@ -45,10 +52,6 @@
   position: absolute;
   top: 548px;
   left: 1013px;
-}
-.top__header {
-  padding-top: 196px;
-  padding-bottom: 156px;
 }
 .top__face1 {
   font-family: "Montserrat";
@@ -118,12 +121,14 @@
 }
 
 .run {
-  height: 90px;
+  width: 1717px;
+  margin-top: auto;
   background-color: #BCEC30;
 }
 .run__content {
   padding-top: 27px;
   padding-bottom: 32px;
+  padding-left: 19px;
   display: flex;
   flex-wrap: wrap;
   gap: 51px;
@@ -139,6 +144,7 @@
   font-family: "Montserrat";
   color: black;
   font-size: 30px;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -361,6 +367,8 @@
     background-repeat: no-repeat;
     background-position: top right;
     height: 700px;
+    flex-direction: column;
+    display: flex;
   }
   .top__star3 {
     position: absolute;
@@ -461,6 +469,9 @@
     background-repeat: no-repeat;
     background-position: top right;
     height: 700px;
+    flex-direction: column;
+    display: flex;
+    overflow-x: hidden;
   }
   .top__star3 {
     position: absolute;
@@ -492,10 +503,9 @@
   }
   .top__header {
     padding-top: 147px;
-    padding-bottom: 130px;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: center;
+    align-items: center;
     display: flex;
   }
   .top__face1 {
@@ -561,10 +571,14 @@
     background-color: white;
   }
   .run {
-    height: 51px;
+    width: 1717px;
+    margin-top: auto;
   }
   .run__content {
     gap: 27px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 19px;
   }
   .run__text {
     font-size: 16px;
