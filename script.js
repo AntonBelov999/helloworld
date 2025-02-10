@@ -56,34 +56,3 @@
 //alert(`Привет ${userName}!`);
 
 
-//  Game 1
-// function whatNumber(n) {
-//     let whatNumber = prompt('kakoe chislo?')
-//     if ( whatNumber > 0 && whatNumber < 50 ) {
-//         alert ('fail');
-//     } else if (whatNumber > 52 && whatNumber < 100) {
-//         alert ('falure');
-//     } else if (whatNumber === 51 ) {
-//         alert ('good job');
-//     } else {
-//         alert ('what you said')
-//     }
-   
-// }
-
-// whatNumber();
-
-function whatNumber
-let whatNumber = prompt('Угадай число');
-const userAnswer === 51;
-while (userNumber !== userAnswer) {
-    if (userNumber > userAnswer) {
-        alert('заданное число меньше');
-    } else if (userNumber < userAnswer) {
-        alert('заданное число больше');
-    } else if (userNumber !== userAnswer){
-        alert('угадал')
-    } else {
-        alert('не понимаю')
-    }
-}
