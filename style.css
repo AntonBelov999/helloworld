@@ -336,6 +336,19 @@
   background-color: #202027;
   cursor: pointer;
 }
+.content-item__button:hover {
+  cursor: pointer;
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: black;
+  font-weight: 600;
+  line-height: 34.01px;
+  text-align: center;
+  text-underline-position: "from-font";
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  background-color: white;
+}
 
 .footer {
   background: #BDED35;
