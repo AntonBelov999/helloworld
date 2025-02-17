@@ -358,6 +358,14 @@
   font-size: 24px;
 }
 
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 @media (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 393px);
@@ -610,6 +618,7 @@
   }
   .mini-games__content {
     padding-bottom: 48px;
+    align-items: center;
   }
   .mini-games__top {
     font-size: 40px;
