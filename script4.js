@@ -35,7 +35,7 @@
 
 // exp 4
 // 
-// function age() { 
+// function getAge() { 
 //     let age = prompt('Сколько тебе лет?');
 
 //     if (age < 0) {
