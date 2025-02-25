@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -235,6 +236,11 @@
 .item {
   background-color: #ffffff;
   border-radius: 30px;
+  transition: transform 0.3s;
+}
+
+.item:hover {
+  transform: scale(1.1);
 }
 
 .mini-games {
@@ -377,6 +383,20 @@ a {
 
 html {
   scroll-behavior: smooth;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.run {
+  overflow: hidden; /* Скрывает содержимое, выходящее за пределы блока */
+  white-space: nowrap; /* Предотвращает перенос строк */
+  animation: scroll 10s linear infinite; /* Применяет анимацию */
 }
 
 @media (max-width: 1024px) {
