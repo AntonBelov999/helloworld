@@ -54,16 +54,15 @@
 // exp 5
 // 
 // function calc( a , b ) {
-//     console.log(isNaN(a));
-//     console.log(isNaN(b));
-//     if ((isNaN(a)) || log(isNan(b))) {
+//     console.log(Number.isNaN(Number(a)));
+//     console.log(Number.isNaN(Number(b)));
+//     if (Number.isNaN(Number(a)) || Number.isNaN(Number(b))) {
 //         return 'Одно или оба значения не являются числом';
 //     } else { 
-//         return  a * b ; 
+//         return a * b; 
 //     }
 // }
-
-// console.log(calc( 6 , 2));
+// console.log(calc(3 , 4));
 
 // exp 6
 //

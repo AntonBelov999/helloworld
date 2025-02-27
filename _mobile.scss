@@ -169,6 +169,10 @@
             align-items: center;
         }
 
+        &__star{
+            display: none;
+        }
+
         &__top{
             font-size: 40px;
             font-weight: 700;

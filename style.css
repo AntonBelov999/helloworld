@@ -653,6 +653,9 @@ html {
     padding-bottom: 48px;
     align-items: center;
   }
+  .mini-games__star {
+    display: none;
+  }
   .mini-games__top {
     font-size: 40px;
     font-weight: 700;

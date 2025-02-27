@@ -23,3 +23,8 @@ function game1() {
         }
     }
 }
+
+
+function game2() {
+    
+}
