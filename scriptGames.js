@@ -27,4 +27,27 @@ function game1() {
 
 function game2() {
     
+
+
+let firstNumb = Math.floor(Math.random() * 100) + 1;
+let secondNumb = Math.floor(Math.random() * 100) + 1;
+const operator = [ '+', '-', '*','/'];
+let userAnswer = Number();
+
+console.log(firstNumb,secondNumb)
+
+function getExample(firstNumb ,operator,  secondNumb ) {
+    return `${firstNumb} ${operator[Math. floor (Math.random() * 4) + 1;]} ${secondNumb}`;
+  }
+  
+  alert(getExample(firstNumb , secondNumb));
+  
+  const userAnswer = prompt("посчитай и выведи ответ");
+  
+  if (userAnswer === result) {
+      alert("верный ответ");
+  }
+  else () {
+    alet ( "подумай");
+  }
 }
