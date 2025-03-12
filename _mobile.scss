@@ -1,0 +1,260 @@
+@media ( max-width:767px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .games{
+        display: none;
+    }
+
+    .top{
+        background-image: url(kartinki/Vector.png);
+        background-repeat:no-repeat ;
+        background-position: top right;
+        height: 700px;
+        flex-direction: column;
+        display: flex;
+        overflow-x: hidden;
+
+        &__star3{
+            position: absolute;
+            top: 64px;
+            left: 91px;
+            width: 21px;
+            height: 21px;
+          }
+
+          &__star2{
+            position: absolute;
+            top: 97px;
+            left: 37px;
+            width: 35px;
+            height: 35px;
+          }
+
+          &__star5{
+            position: absolute;
+            top: 557px;
+            left: 272px;
+            width: 18px;
+            height: 18px;
+          }
+
+          &__star4{
+            position: absolute;
+            top: 580px;
+            left: 303px;
+            width: 39px;
+            height: 41px;
+          }
+
+        &__header{
+            padding-top: 147px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            display: flex;
+        }
+    
+        &__face1{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48.76px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+            width: 262px;
+            height: 196px;
+        }
+    
+        &__face2{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.5px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+            width: 296px;
+            padding-bottom: 36px;
+            padding-top: 24px;
+        }
+    
+        &__span{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19.5px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+        }
+    
+        &__button{
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 22.67px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+            color: white;
+            background-color: black;
+            
+        }
+    
+        &__button:hover{
+            cursor: pointer;
+            font-size: 16px;
+            font-family: "Montserrat";
+            color: black;
+            font-weight: 600 ;
+            line-height: 34.01px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            background-color: white;
+        }
+    }
+
+    .run{
+        width: 1717px;
+        margin-top: auto;
+
+        &__content{
+            gap: 27px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 19px;
+        }
+
+        &__text{
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 17.6px;
+            letter-spacing: 0.04em;
+            text-align: left;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+        }
+
+        &__img{
+            width: 19px;
+            height: 19px;
+        }
+    }
+
+
+    .item_left{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .item_right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mini-games{
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+        &__content{
+            padding-bottom: 48px;
+            align-items: center;
+        }
+
+        &__star{
+            display: none;
+        }
+
+        &__top{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48.76px;
+            text-align: left;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+            padding-top: 48px;
+            padding-bottom: 48px;
+        }
+    }
+
+    
+
+    .content-item{
+
+        &__img{
+            height: auto;
+        }
+
+        &__names{
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39.01px;
+            text-align: left;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+        }
+
+        &__info{
+            padding: 29px 29px 32px 29px;
+            width: 284px;
+           }
+     
+        &__rools{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.5px;
+            text-align: left;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+        }
+
+        &__button{
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 22.67px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+        }
+    }
+
+    .kartinka{
+        width: 343px;
+        height: 285px;
+    }
+    
+    .item_left{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .footer{
+        height: 100px;
+
+        &__text{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19.5px;
+            text-align: center;
+            text-underline-position: "from-font";
+            text-decoration-skip-ink: none;
+            font-family: "Montserrat";
+            width: 190px;
+        }
+    }
+}
