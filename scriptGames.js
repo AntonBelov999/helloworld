@@ -36,11 +36,11 @@ function game2() {
     let result;
 
     switch (operator[operatorRandom]) {
-        case "+": 
+        case "+":
             result = firstNumb + secondNumb;
             break;
 
-        case "-": 
+        case "-":
             result = firstNumb - secondNumb;
             break;
 
@@ -49,9 +49,15 @@ function game2() {
             break;
 
         case "/":
-            secondNumb != 0
-            result = firstNumb / secondNumb;
-            break;
+        case "/":
+            if (secondNumb !== 0) {
+                result = firstNumb / secondNumb;
+            } else {
+                alert('Деление на ноль невозможно, попробуй снова.');
+                // Возможно, стоит перезапустить генерацию примера
+            }
+            return;
+           
     }
 
     let userAnswer = +prompt(`Сколько будет  ${firstNumb} ${operator[operatorRandom]} ${secondNumb} ?`);
