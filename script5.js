@@ -26,8 +26,6 @@
 // let joinedNumb = numb.join(' ');
 // console.log(joinedNumb);
 
-// console.log(numb.join(separator)(4))
-
 
 //exp 4
 

@@ -24,11 +24,11 @@
 //let result = 2** 5;
 //alert(result);
 
-//exp 6
-//let a=9;
-//let b=2;
-//let remainder=9%2;
-//alert(remainder);
+// exp 6
+// let a=9;
+// let b=2;
+// let remainder=9%2;
+// alert(remainder);
 
 //exp 7
 //let num = 1;
