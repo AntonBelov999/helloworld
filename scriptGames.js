@@ -83,8 +83,6 @@ function game3() {
     alert(reversedText);
 }
 
-game3();
-
 function game4 () {
      const quiz = [
            {
@@ -105,18 +103,17 @@ function game4 () {
        ];
 
        let num = 0
-       for ( i = 0 ; i < quiz.length; i++) {
-        let quizQuest  = Number(prompt(`выбери правельный ответ? \n${quiz[i].question \n${quiz[i].options`));
-            if(quizQuest === quiz[i]()correctAnswer) {
-                num++
-            alert(вы ответили верно)
-            }else{
-                alert(не верно)
-            }
 
-                }
+        for (let i = 0; i < quiz.length; i++) {
+
+        let quizQuest = Number(prompt(`Выбери правильный ответ? \n${quiz[i].question} \n${quiz[i].options.join('\n')}`));
+            if (quizQuest === quiz[i].correctAnswer) {
+                num++
+            alert("вы ответили верно")
+            }else{
+                alert("не верно")
+            }
             }
        }
-            alert (`вы ответили на ${num} вопросов`)
-
-}
+       alert ("вы ответили на ${num} вопросов")
+    
